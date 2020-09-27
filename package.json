@@ -1,0 +1,11 @@
+{
+  "name": "nedb",
+  "version": "1.0.0",
+  "description": "NeDB => lightweight database written entirely in Javascript, and that implements the well-known and loved MongoDB API. It is packaged as a Node module that be used with a simple require and can be used as an in-memory only or persistent datastore. You can think of it as SQLite for MongoDB projects.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Art.Twis",
+  "license": "MIT"
+}
