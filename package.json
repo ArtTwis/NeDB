@@ -1,11 +1,27 @@
 {
-  "name": "nedb",
+  "name": "learning-nedb",
   "version": "1.0.0",
   "description": "NeDB => lightweight database written entirely in Javascript, and that implements the well-known and loved MongoDB API. It is packaged as a Node module that be used with a simple require and can be used as an in-memory only or persistent datastore. You can think of it as SQLite for MongoDB projects.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtTwis/NeDB"
   },
   "author": "Art.Twis",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "edit-json-file": "^1.4.1",
+    "electron": "^10.1.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.1",
+    "jquery": "^3.5.1",
+    "jquery-deferred": "^0.3.1",
+    "nedb": "^1.8.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
 }
